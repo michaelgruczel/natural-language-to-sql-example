@@ -24,7 +24,6 @@ Install UV
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-
 ## more links
 
 some more links to have a look into:
@@ -33,8 +32,9 @@ some more links to have a look into:
 - https://machinelearningmastery.com/10-python-one-liners-for-calling-llms-from-your-code/
 - https://platform.openai.com/docs/api-reference/chat/create?lang=python
 - https://modelcontextprotocol.io/docs/develop/build-server
+- https://www.uber.com/en-DE/blog/query-gpt/
 
-## to be deleted later
+## to be deleted later, here is what i have done
 
 ```
 
@@ -51,6 +51,14 @@ uv add "mcp[cli]" httpx
 
 # Create our server file
 touch nl-to-sql-mcp-example.py
+
+# added code
+# ...
+
+# start the mcp server
+uv run nl-to-sql-mcp-example.py
+
+npx @modelcontextprotocol/inspector
 ```
 
 

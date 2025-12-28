@@ -14,4 +14,8 @@ async def get_player_data(query: str) -> str:
         query: a natural requests asking for specific player data.
     """
     
+    # first generate SQL from user requests using a LLM
+    # second execute SQL Statement against SQL
+    # third return results
+
     return "to be implemented"
