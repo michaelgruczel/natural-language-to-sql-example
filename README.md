@@ -39,8 +39,8 @@ some more links to have a look into:
 ```
 
 # Create a new directory for our project
-uv init weather
-cd weather
+uv init nl-to-sql-mcp-example
+cd ./nl-to-sql-mcp-example/
 
 # Create virtual environment and activate it
 uv venv
@@ -50,7 +50,7 @@ source .venv/bin/activate
 uv add "mcp[cli]" httpx
 
 # Create our server file
-touch weather.py
+touch nl-to-sql-mcp-example.py
 ```
 
 
